@@ -7,7 +7,18 @@
 
 
 // ++ Write YOUR CODE Below
-
+function makeAcronym(str) {
+  var newArray = str.split(' ');
+  var acrStr = '';
+  
+  for(var i = 0; i < newArray.length; i++){
+    var firstLetter = newArray[i][0];
+    acrStr += firstLetter.toUpperCase();
+  
+  }
+  return acrStr
+  
+}
 
 
 

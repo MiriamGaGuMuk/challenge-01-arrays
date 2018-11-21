@@ -11,6 +11,18 @@
 
 // ++ Write YOUR CODE below
 
+function isPalindrome(word) {
+  var wordBack = ''
+  for (var i = word.length -1; i >= 0; i--) {
+    wordBack += word[i]
+  }
+  if (word === wordBack) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 
 
 

@@ -3,6 +3,7 @@
  * countWordInArray()
  *
  * Write a function called `countWordInArray` that takes 2 inputs: a string, and an array.
+ * 
  * The function should return a number that is equal to the number of times the string-argument
  * is found in the array.
  *
@@ -12,7 +13,15 @@
 // ++ Write YOUR CODE Below
 
 
-
+function countWordInArray(text, array1) {
+  var counter = 0;
+  for(var i = 0; i < array1.length; i++) {
+    if (text === array1[i]) {
+      counter++;
+    }
+  }
+  return counter;
+}
 
 
 

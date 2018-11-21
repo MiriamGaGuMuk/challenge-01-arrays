@@ -19,9 +19,17 @@
 
 // ++ Write YOUR CODE Below
 
-
-
-
+function simpOrSamp(arr) {
+  var newArray = []
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i].length < 6) {
+      newArray.push(arr[i] + " Sampson")
+    } else {
+      newArray.push(arr[i] + " Simpson")
+    }
+  }
+  return newArray;
+}
 
 
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*

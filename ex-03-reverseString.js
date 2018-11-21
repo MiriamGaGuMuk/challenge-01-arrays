@@ -11,9 +11,13 @@
 
 // ++ Write YOUR CODE Below
 
-
-
-
+function reverseString(text) {
+  var newWord = '';
+  for(var i = text.length - 1; i >= 0; i--) {
+    newWord += text[i];
+  }
+  return newWord;
+}
 
 
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*

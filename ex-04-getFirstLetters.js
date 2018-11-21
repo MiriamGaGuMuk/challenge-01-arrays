@@ -11,6 +11,13 @@
 
 
 // ++ Write YOUR CODE Below
+function getFirstLetters(arr){
+ var newArray = [];
+ for (var i = 0; i < arr.length; i++){
+  newArray.push(arr[i][0]);
+ }
+  return newArray
+}
 
 
 
